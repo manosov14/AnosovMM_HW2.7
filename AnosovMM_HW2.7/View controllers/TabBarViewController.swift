@@ -19,7 +19,7 @@ class firstViewController: UITabBarController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let tabBarVC = segue.destination as? UITabBarController else { return }
         for viewController in tabBarVC.viewControllers! {
-            if let PersonListVC = viewController as? PersonsListViewController {
+            if let PersonListVC = viewController as? PersonsListViewController{
                 PersonListVC.persons = persons
             }
         }  
