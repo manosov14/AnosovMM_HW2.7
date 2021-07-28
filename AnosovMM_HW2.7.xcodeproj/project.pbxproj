@@ -15,6 +15,8 @@
 		870AB85926B050DA000CB6F2 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870AB85826B050DA000CB6F2 /* TabBarViewController.swift */; };
 		870AB85B26B05173000CB6F2 /* dataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870AB85A26B05173000CB6F2 /* dataManager.swift */; };
 		870AB85E26B06679000CB6F2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870AB85D26B06679000CB6F2 /* Person.swift */; };
+		87D7A16C26B1E82500F9F7B5 /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D7A16B26B1E82500F9F7B5 /* PersonsListViewController.swift */; };
+		87D7A16E26B1E8D100F9F7B5 /* detailForPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D7A16D26B1E8D100F9F7B5 /* detailForPersonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		870AB85826B050DA000CB6F2 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		870AB85A26B05173000CB6F2 /* dataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataManager.swift; sourceTree = "<group>"; };
 		870AB85D26B06679000CB6F2 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		87D7A16B26B1E82500F9F7B5 /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
+		87D7A16D26B1E8D100F9F7B5 /* detailForPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailForPersonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			children = (
 				870AB85C26B06668000CB6F2 /* Models */,
 				870AB85426AF585F000CB6F2 /* View controllers */,
+				87B7731126B1BBB500C39B3D /* Manage Classes */,
 				870AB85626AF58B3000CB6F2 /* Storyboards */,
 				870AB85726AF58D8000CB6F2 /* Supporting files */,
 				870AB85526AF587A000CB6F2 /* Resources */,
@@ -73,7 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				870AB85826B050DA000CB6F2 /* TabBarViewController.swift */,
-				870AB85A26B05173000CB6F2 /* dataManager.swift */,
+				87D7A16B26B1E82500F9F7B5 /* PersonsListViewController.swift */,
+				87D7A16D26B1E8D100F9F7B5 /* detailForPersonViewController.swift */,
 			);
 			path = "View controllers";
 			sourceTree = "<group>";
@@ -111,6 +117,14 @@
 				870AB85D26B06679000CB6F2 /* Person.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		87B7731126B1BBB500C39B3D /* Manage Classes */ = {
+			isa = PBXGroup;
+			children = (
+				870AB85A26B05173000CB6F2 /* dataManager.swift */,
+			);
+			path = "Manage Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,8 +199,10 @@
 			files = (
 				870AB85E26B06679000CB6F2 /* Person.swift in Sources */,
 				870AB84126AF5845000CB6F2 /* AppDelegate.swift in Sources */,
+				87D7A16C26B1E82500F9F7B5 /* PersonsListViewController.swift in Sources */,
 				870AB85B26B05173000CB6F2 /* dataManager.swift in Sources */,
 				870AB84326AF5845000CB6F2 /* SceneDelegate.swift in Sources */,
+				87D7A16E26B1E8D100F9F7B5 /* detailForPersonViewController.swift in Sources */,
 				870AB85926B050DA000CB6F2 /* TabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

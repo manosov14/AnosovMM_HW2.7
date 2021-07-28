@@ -9,26 +9,18 @@ struct Person {
     let surnames: String
     let phones: String
     let emails: String
-    
+}
+
+extension Person {
     static func getPersons() -> [Person] {
-        
         let namesRandom = DataManager.shared.names.shuffled()
         let surnamesRandom = DataManager.shared.surnames.shuffled()
         let phonesRandom = DataManager.shared.phones.shuffled()
         let emailsRandom = DataManager.shared.emails.shuffled()
-        
         var persons: [Person] = []
         
-        for _ in 0..<namesRandom.count {
-            for name in namesRandom {
-                for surname in surnamesRandom {
-                    for phone in phonesRandom {
-                        for email in emailsRandom {
-                            persons.append (Person(names: name, surnames: surname, phones: phone, emails: email))
-                        }
-                    }
-                }
-            }
+        for index in 0..<namesRandom.count {
+            persons.append (Person(names: namesRandom[index], surnames: surnamesRandom[index], phones: phonesRandom[index], emails: emailsRandom[index]))
         }
         return persons
     }
