@@ -20,7 +20,12 @@ extension Person {
         var persons: [Person] = []
         
         for index in 0..<namesRandom.count {
-            persons.append (Person(names: namesRandom[index], surnames: surnamesRandom[index], phones: phonesRandom[index], emails: emailsRandom[index]))
+            persons.append (
+                Person(
+                    names: namesRandom[index],
+                    surnames: surnamesRandom[index],
+                    phones: phonesRandom[index],
+                    emails: emailsRandom[index]))
         }
         return persons
     }
